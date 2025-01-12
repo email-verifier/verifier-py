@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: verifier
+Version: 1.0.0
+Summary: Offical Library for verifier.meetchopra.com
+Home-page: https://github.com/email-verifier/verifier-py
+Author: Meet Chopra
+Author-email: meet@meetchopra.com
+License: UNKNOWN
+Description: # Official Library for verifier.meetchopra.com
+        
+        # Installation
+        ```pip install git+https://github.com/email-verifier/verifier-py.git```
+        
+        or
+        
+        ```git clone https://github.com/email-verifier/verifier-py.git```
+        
+        # Usage
+        The library exposes 2 methods. `verify` for boolean response making it simple and `verifyRequest` for having the API response in return
+        
+        
+        Below is the example of how to use the library
+        
+        ```python
+        import verifier
+        import json
+        
+        
+        if verifier.verify('meet@hooktap.in', 'API_TOKEN'):
+            print("Hurray! Email is right!")
+        else:
+            print("Oh! Email is not real")
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

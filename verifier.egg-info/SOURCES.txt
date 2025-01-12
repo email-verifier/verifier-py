@@ -1,0 +1,8 @@
+README.md
+setup.py
+verifier/__init__.py
+verifier/verifier.py
+verifier.egg-info/PKG-INFO
+verifier.egg-info/SOURCES.txt
+verifier.egg-info/dependency_links.txt
+verifier.egg-info/top_level.txt
